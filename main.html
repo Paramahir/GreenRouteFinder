@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>EcoRoute Calculator</title>
+    <script <script src="https://maps.googleapis.com/maps/api/js?key=YOURKEY&libraries=&v=weekly" defer></script>
+
+    defer></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>EcoRoute Calculator</h1>
+
+        <div id="input-container">
+            <input id="source" type="text" placeholder="Enter source">
+            <input id="destination" type="text" placeholder="Enter destination">
+
+
+        </div>
+
+        <div id="options-container">
+            <label for="vehicleType">Vehicle Type:</label>
+            <select id="vehicleType">
+                <option value="car">Car</option>
+                <option value="motorcycle">Motorcycle</option>
+                <option value="bus">Bus</option>
+                <option value="train">Train</option>
+            </select>
+
+            <label for="fuelType">Fuel Type:</label>
+            <select id="fuelType">
+                <option value="petrol">Petrol</option>
+                <option value="diesel">Diesel</option>
+                <option value="electric">Electric</option>
+            </select>
+            <button id="calculateButton">Calculate Route</button>
+        </div>
+
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
