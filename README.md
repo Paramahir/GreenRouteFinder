@@ -23,6 +23,7 @@ To get a local copy up and running, follow these simple steps.
    ```sh
    git clone https://github.com/your_username_/EcoRouteCalculator.git
 2. Enter your API key in index.html: Open the index.html file and find the following script tag:
+    ```sh
    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly" defer></script> #Replace YOUR_API_KEY with your Google Maps API key.
 
 ###   Usage
